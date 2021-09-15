@@ -1,7 +1,7 @@
 body {
     background: #000000;
     color: #ffffff;
-    font-family: "Times New Roman", "Sans-Serif";
+    font-family: "Times New Roman", Sans-Serif;
 }
 
 img {
@@ -12,7 +12,7 @@ img {
 }
 
 div {
-    height: 150px;
+    min-height: 150px;
     padding: 25px;
 }
 
@@ -30,7 +30,6 @@ p {
 h2 {
     font-size: 32px;
     text-shadow: 4px 4px 2px #808080;
-
 }
 #red {
     background: #FF0000;
@@ -45,7 +44,12 @@ h2 {
 #yellow {
     background: #FFFF00;
     text-align: right;
+    color:#000000;
 }
+
+#yellow h2 {
+    text-shadow: 4px 4px 2px #c7e2c7;
+} 
 
 #green {
     background: #008000;
@@ -54,6 +58,6 @@ h2 {
 
 footer {
     text-align: center;
-    padding-right: 10px;
     padding-bottom: 10px;
+    padding-right: 10px;
 }
